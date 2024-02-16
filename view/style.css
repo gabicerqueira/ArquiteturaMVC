@@ -1,0 +1,33 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bricolage';
+    src: url(font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Nanum';
+    src: url(font/NanumMyeongjo-Regular.ttf);
+}
+
+body{
+    background-image: url(img/fundo.png);
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font: 600 40px 'Bricolage', sans-serif;
+}
