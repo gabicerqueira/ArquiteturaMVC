@@ -1,0 +1,39 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bricolage';
+    src: url(font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Nanum';
+    src: url(font/NanumMyeongjo-Regular.ttf);
+}
+
+body {
+    background-image: url(img/fundoResultado.png);
+}
+
+.container {
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h1 {
+    font: 600 40px 'Bricolage', sans-serif;
+    text-align: center;
+}
+
+#resultado {
+    margin-top: 15px;
+    font: 400 24px 'Bricolage', sans-serif;
+    text-align: center;
+}
